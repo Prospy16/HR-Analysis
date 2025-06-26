@@ -4,6 +4,16 @@
 
 ---
 
+## TABLE OF CONTENT
+- [Introduction](#introduction)
+- [Project Aim](#project-aim)
+- [Project Description](#project-description)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Data Analysis and Visualization](#data-analysis-and-visualization)
+- [Insights](#insights)
+- [Recommendations](#recommendations)
+
+
 ##  Introduction
 
 This HR Analytics project focuses on evaluating current human resource practices within an organization using data-driven methods. The goal is to identify areas for improvement, monitor employee trends, and provide actionable recommendations that enhance workforce efficiency, employee satisfaction, and overall organizational performance.
@@ -29,18 +39,10 @@ This project delivers an in-depth analysis of employee demographics, attrition t
 
 The result is a dynamic Power BI dashboard that allows HR leaders to explore these themes interactively and make evidence-based decisions.
 
----
-
-##  Deliverables
-
-- A fully interactive Power BI dashboard with four report pages  
-- Key insights summary and visual scorecards  
-- Strategic recommendations for HR decision-making  
-- GitHub-hosted documentation and dashboard visuals  
 
 ---
 
-##  Data Acquisition and Preparation
+##  Data Cleaning and Preparation
 
 The dataset was sourced from a simulated HR database (Excel format) containing 8,950 employee records with attributes such as education level, gender, department, job role, performance rating, salary, and more.
 
@@ -53,14 +55,6 @@ The dataset was sourced from a simulated HR database (Excel format) containing 8
 
 ---
 
-##  Data Cleaning and Transformation
-
-- Used "First Row as Headers" for structure  
-- Applied the correct Data Type to ensure numeric/text accuracy     
-- Grouped variables for dashboard slicing (e.g. age brackets, job levels)
-
----
-
 ## Data Analysis and Visualization
 
 The Power BI dashboard includes four major pages:
@@ -68,14 +62,22 @@ The Power BI dashboard includes four major pages:
 ###  Overview Page
 Summarizes the company’s entire workforce: active vs. attrited employees, department sizes, and age distribution.
 
+![image alt](https://github.com/Prospy16/HR-Analysis/blob/main/EMPLOYEES%20OVERVIEW.jpg)
+
 ###  Retention Analysis
 Shows active employee distribution by gender, education level, hiring trends (2015–2024), and performance scores. Highlights departments with the highest retention.
+
+![image alt](https://github.com/Prospy16/HR-Analysis/blob/main/RETENTION%20ANALYSIS.jpg)
 
 ### Turnover Analysis
 Details attrition counts, attrition by education, department, and gender. Tracks turnover trends over the years, with 2023 showing the highest exits.
 
+![image alt](https://github.com/Prospy16/HR-Analysis/blob/main/TURNOVER%20ANALYSIS.jpg)
+
 ###  Salary Analysis
 Examines salary averages by department, gender, and age groups. Finds pay imbalances and cost-heavy segments in older age groups and IT teams.
+
+![image alt](https://github.com/Prospy16/HR-Analysis/blob/main/SALARY%20ANALYSIS.jpg)
 
 ---
 
